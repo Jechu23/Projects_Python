@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T10:15:38.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="vQ1yo5uFOa-LA49t4y9J" type="github"><diagram id="fRzhprvjLGrbAIQA9S7v">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-12T10:29:31.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="ojHPgDs_ppk_iqOv9wss" type="github">
+  <diagram id="97NRxQQ0gE6GKJNCYA0g" name="Página-1">
+    <mxGraphModel dx="1483" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wug1muBPwoIi46KmIhlu-1" value="Display Parking&lt;br style=&quot;font-size: 12px;&quot;&gt;Space Availiability" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-3" value="Display" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" target="Wug1muBPwoIi46KmIhlu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="640" as="sourcePoint" />
+            <mxPoint x="460" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-8" value="Car /Driver" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-9" value="Car Enter" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-10" value="Car Exit" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-11" value="Entry acces control" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-12" value="Space availiabiliry sensor" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" source="Wug1muBPwoIi46KmIhlu-9" target="Wug1muBPwoIi46KmIhlu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="100" as="sourcePoint" />
+            <mxPoint x="420" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" source="Wug1muBPwoIi46KmIhlu-9" target="Wug1muBPwoIi46KmIhlu-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" target="Wug1muBPwoIi46KmIhlu-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="80" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" source="Wug1muBPwoIi46KmIhlu-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="120" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-18" value="Manager (Carparlot)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-19" value="System configuration" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-20" value="Get report" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.003;entryY=0.598;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" target="Wug1muBPwoIi46KmIhlu-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="170" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wug1muBPwoIi46KmIhlu-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontStyle=1;fontSize=12;strokeColor=#000000;" edge="1" parent="1" target="Wug1muBPwoIi46KmIhlu-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="420" as="sourcePoint" />
+            <mxPoint x="230" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
